@@ -14,44 +14,75 @@
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="sociotechnical" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/","name":"sociotechnical","headline":"sociotechnical","@type":"WebSite","@context":"https://schema.org"}</script>
+{"headline":"sociotechnical","url":"http://localhost:4000/","name":"sociotechnical","@type":"WebSite","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=HEAD">
+  <style>
+    a[href$=todo]:hover, a[href$=todo]:focus  {
+      /*opacity: 0.8;*/
+      /*color:#069 !important;*/
+    }
+    /* https://github.com/pages-themes/minimal/blob/master/_sass/jekyll-theme-minimal.scss#L44 */
+    a:hover, a:focus {
+      color: orange !important;
+      font-weight: normal !important; 
+    }
+  </style>
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=d20916e8cb963075ca954676c7a6ec3193b7d175">
     <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="http://localhost:4000/">sociotechnical</a></h1>
+        <div style="margin-bottom: 50px;">
+          <h1 style="margin-bottom: 10px;">
+            <div><a href="http://localhost:4000/">sociotechnical</a></div>
+          </h1>
+          <p>Libraries, tools and guides for data scientists and software engineers that view ML fairness as a sociotechnical problem that impacts humans</p>
+        </div>
         
         
 
-        <p></p>
+        <div>
+          <div><a href="/index">I can haz PYthon cod enow!!</a></div>
 
-        
-        <p class="view"><a href="https://github.com/kevinrobinson/sociotechnical">View the Project on GitHub <small>kevinrobinson/sociotechnical</small></a></p>
-        
+          <div style="margin-top: 20px;">
+            <div>Try this right now</div>
 
-        
+            <div style="margin-left: 10px;"><a href="/todo">Python functions for looking at data</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Talking about fairness</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Noticing red flags</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Adding sociotechnical context</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Picking your first fairness metric</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Finding interdisciplinary feedback</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Pushing back against tech solutionism</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Walking away professionally</a></div>
+          </div>
 
-        
+          <div style="margin-top: 20px;">
+            <div>Domain-specific guides</div>
+            <div style="margin-left: 10px;"><a href="/guides/facial_recognition">Facial recognition</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Criminal justice</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Financial services</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Education</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Health care</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">HR</a></div>
+            <div style="margin-left: 10px;"><a href="/todo">Media</a></div>
+          </div>
+
+          <div style="margin-top: 20px;">
+            <div><a href="/todo">Make a new friend!</a></div>
+          </div>
+        </div>
+
+
       </header>
       <section>
 
-      <pre>
-Meta
-
-This has to speak to two audiences well.
-
-One audience people attending FaCCT, listening to the Radical AI podcast, and reading Design Justice.  It's most of the people involved in this project right now, and it's the people that will grow it in the early phase.  That audience is the heart and core of this work - it has to feel good about this project, and it has a lot of veto power it can use.  But it is not the primary audience.
-
-The primary audience is people who do not particularly care about fairness.  They are data scientists or software engineers.  Maybe someday they'll also be designers and product managers, but not yet.  This is the site that someone who cares deeply about fairness can email to another engineer and say "let's pick something to try from what's here."
-
-This audience has a shorter time horizon.  They are not academics.  Research papers signal that the project is not for them.
-</pre>
+      <p><a href="meta" style="   white-space: break-spaces;   color: darkorange;   border: 2px solid orange;   background: #f8f8f8;   padding: 10px;   margin-bottom: 20px;   display: block; ">First, please read <u><b>'Framing for reading and critiquing'</b></u></a></p>
 
 <h1 id="fairness-is-a-sociotechnical-problem">Fairness is a sociotechnical problem</h1>
 <p>Fairness in data science, machine learning, or any aspect of computer science is always challenging.  It involves balancing different stakeholders, translating between their vocabularies and perspectives, and finding ways to move forward that feels right to you and to everyone impacted by your work.</p>
@@ -63,44 +94,39 @@ This audience has a shorter time horizon.  They are not academics.  Research pap
 
 <p>Each person and team needs to make their own tradeoffs.  But cutting corners on fairness can have the same kinds of severe unexpected consequences for a team as cutting corners on security.</p>
 
-<h2 id="try-this-now">Try this now</h2>
+<h2 id="try-this-right-now">Try this right now</h2>
+<p>You can try each of these out in an hour and bring something to kick off a conversation with your team.</p>
+
 <ol>
-  <li>Python functions for looking at the data</li>
-  <li>Talking about fairness</li>
-  <li>Noticing red flags</li>
-  <li>Introducing more sociotechnical context</li>
-  <li>Picking your first fairness metric</li>
-  <li>Diffusing solutionism</li>
-  <li>Walking away professionally</li>
+  <li><a href="/todo">Python functions for looking at the data</a></li>
+  <li><a href="/todo">Talking about fairness</a></li>
+  <li><a href="/todo">Noticing red flags</a></li>
+  <li><a href="/todo">Introducing more sociotechnical context</a></li>
+  <li><a href="/todo">Picking your first fairness metric</a></li>
+  <li><a href="/todo">Pushing back against solutionism</a></li>
+  <li><a href="/todo">Finding interdisciplinary feedback</a></li>
+  <li><a href="/todo">Walking away professionally</a></li>
 </ol>
 
 <p>If you’d like more general guidelines and checklists for fairness in ML development:</p>
 <ul>
-  <li>collaborating on ML design (PAIR Guidebook)</li>
-  <li>co-designing with people impacted by your work (Design Justice)</li>
-  <li>auditing datasets (Datasheets for datasets paper)</li>
-  <li>describing limitations of models (Google Cloud model cards, paper)</li>
-  <li>fairness questions throughout the ML lifecycle (Madaio)</li>
+  <li>how to collaborate on ML framing and design (<a href="https://pair.withgoogle.com/guidebook/">People + AI Handbook</a>)</li>
+  <li>how to co-design with people impacted by your work (<a href="https://designjustice.org/read-the-principles">Design Justice Principles</a>)</li>
+  <li>how to audit datasets with datasheets (<a href="https://arxiv.org/pdf/1803.09010.pdf">research paper</a>)</li>
+  <li>describing ML limitations with model cards (<a href="https://modelcards.withgoogle.com/object-detection">example</a>, <a href="https://arxiv.org/pdf/1810.03993.pdf">research paper</a>)</li>
+  <li>fairness questions throughout the ML lifecycle (<a href="http://www.jennwv.com/papers/checklists.pdf">see appendix of research paper</a>)</li>
 </ul>
 
 <h2 id="domain-specific-guides">Domain-specific guides</h2>
-<p>a. Facial recognition
-b. Criminal justice
-c. Financial services</p>
-<ul>
-  <li>legal bits</li>
-  <li>Wattenberg visualization</li>
-  <li>need wider…?
-d. Search and ranking</li>
-  <li>Harms of representation</li>
-  <li>Gorillas, Sloths and and Crossaints
-e. Education
-f. Health care</li>
-  <li>human costs of EMRs</li>
-  <li>people don’t understand uncertainty
-g. HR and Administration</li>
-  <li>choose your own adventure adminstrative horror</li>
-</ul>
+<ol>
+  <li><a href="/guides/facial_recognition">Facial recognition</a></li>
+  <li><a href="/todo">Criminal justice</a></li>
+  <li><a href="/todo">Financial services</a></li>
+  <li><a href="/todo">Education</a></li>
+  <li><a href="/todo">Health care</a></li>
+  <li><a href="/todo">HR</a></li>
+  <li><a href="/todo">Media</a></li>
+</ol>
 
 <h2 id="make-a-new-friend">Make a new friend!</h2>
 <p>These folks would love to take questions from data scientists trying to grow their work in fairness. They can help with things like:</p>
@@ -119,53 +145,15 @@ g. HR and Administration</li>
   <img style="width: 150px;" src="people/roman.jpg" />
   <img style="width: 150px;" src="people/michael.jpg" />
   <img style="width: 150px;" src="people/miro.jpg" />
-  <img style="width: 150px;" src="people/mattias.jpg" />
+  <img style="width: 150px;" src="people/matthijs.jpg" />
 </div>
 
 <p>DM on Twitter or come to Gitter!</p>
 
-<hr />
-
-<p>(CUT this)</p>
-<h2 id="understand-specific-hot-button-topics">Understand specific hot-button topics</h2>
-<p>(If we get one paragraph, what are the top 3 <em>stories</em> everyone should know)</p>
-<ul>
-  <li>ML designers can create systems that are racist or sexist without intending to or even knowing they have done this.  Watch this three minute video on a facial recognition (Gender Shades).</li>
-  <li>There are many systems that are legal, but deeply unfair. (???)</li>
-  <li>If the project involves labeling and classifying something, you are making choices about fairness. (???)</li>
-</ul>
-
-<h1 id="who-to-learn-from">Who to learn from</h1>
-<p>Practicing data scientists
--</p>
-
-<p>Expanding your view of fairness</p>
-<ul>
-  <li>Design Justice Principles</li>
-</ul>
-
-<p>The important of sociotechnical context</p>
-
-<p>History of fairness in computer science</p>
-<ul>
-  <li>Trouble with Bias</li>
-</ul>
-
-<h1 id="where-to-learn">Where to learn</h1>
-<p>FAccT
-Design Justice</p>
-
-<p>ICML, AIES within AAAI, NeurIPS, ICLR, CHI</p>
-
-<p>While human centered-AI primarily focuses on how humans will experience AI systems, and how their lives will be influenced by those AI systems, it also means considering</p>
-
 
       </section>
       <footer>
-        
-        <p>This project is maintained by <a href="https://github.com/kevinrobinson">kevinrobinson</a></p>
-        
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small><a href="https://github.com/fairlearn/fairlearn">github.com/fairlearn/fairlearn</a></small></p>
       </footer>
     </div>
     <script src="/assets/js/scale.fix.js"></script>
