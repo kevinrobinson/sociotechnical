@@ -1,0 +1,13 @@
+{
+  "deployment": {
+    "countries": [
+      "US", 
+      "Mexico",
+      "Canada"
+    ],
+    "yearsInService": [2019, 2024]
+  },
+  "concerns": {
+    "people": "noted"
+  }
+}

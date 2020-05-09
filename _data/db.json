@@ -2,10 +2,13 @@
   "meta": {},
   "posts": [{
     "id": 1,
+    "dep": {
+      "name": "census-data-downloader",
+      "spec": "0.0.26"
+    },
     "title": "US Census data",
     "date": "2020-05-09",
     "unsafe_html": "US Census data sources fetched from <a href='https://github.com/datadesk/census-data-downloader'>datadesk/census-data-downloader</a> only provide data starting in 2009 and are scoped the the US only.",
-    "url": "https://example.com/ok",
     "context": {
       "yearsRange": [2009, null],
       "fromCountries": ["US"],

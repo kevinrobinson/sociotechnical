@@ -1,0 +1,7 @@
+README.md
+setup.py
+fairwarning.egg-info/PKG-INFO
+fairwarning.egg-info/SOURCES.txt
+fairwarning.egg-info/dependency_links.txt
+fairwarning.egg-info/entry_points.txt
+fairwarning.egg-info/top_level.txt
