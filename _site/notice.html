@@ -10,11 +10,11 @@
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="sociotechnical" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/cutting_board.html" />
-<meta property="og:url" content="http://localhost:4000/cutting_board.html" />
+<link rel="canonical" href="http://localhost:4000/notice.html" />
+<meta property="og:url" content="http://localhost:4000/notice.html" />
 <meta property="og:site_name" content="sociotechnical" />
 <script type="application/ld+json">
-{"headline":"sociotechnical","url":"http://localhost:4000/cutting_board.html","@type":"WebPage","@context":"https://schema.org"}</script>
+{"headline":"sociotechnical","url":"http://localhost:4000/notice.html","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <style>
@@ -29,7 +29,7 @@
     }
   </style>
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=76788387b4c40edc2da41aa4c426b954a66e06b1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=3d6991fe9a20a81b7a84971645f940dce727deac">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -49,6 +49,7 @@
 
         <div>
           <div><a href="/index">I can haz PYthon cod enow!!</a></div>
+          <div><a href="/notices">Fairness notices</a></div>
 
           <div style="margin-top: 20px;">
             <div>Try this right now</div>
@@ -87,47 +88,44 @@
       </header>
       <section>
 
-      <hr />
-<p>CUTTING BOARD below, ignore</p>
+      
+<h1 id="us-census-data-1">US Census data #1</h1>
+<p>US Census data sources fetched from <a href="https://github.com/datadesk/census-data-downloader">datadesk/census-data-downloader</a> only provide data starting in 2009 and are scoped the the US only.</p>
 
-<h2 id="understand-specific-hot-button-topics">Understand specific hot-button topics</h2>
-<p>(If we get one paragraph, what are the top 3 <em>stories</em> everyone should know)</p>
-<ul>
-  <li>ML designers can create systems that are racist or sexist without intending to or even knowing they have done this.  Watch this three minute video on a facial recognition (Gender Shades).</li>
-  <li>There are many systems that are legal, but deeply unfair. (???)</li>
-  <li>If the project involves labeling and classifying something, you are making choices about fairness. (???)</li>
-</ul>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yearsRange: 2009
+fromCountries: US
+</code></pre></div></div>
 
-<h1 id="who-to-learn-from">Who to learn from</h1>
-<p>Practicing data scientists
--</p>
+<div style="padding: 10px; display: inline-block; color: white; background: brown;">people</div>
 
-<p>Expanding your view of fairness</p>
-<ul>
-  <li>Design Justice Principles</li>
-</ul>
 
-<p>The important of sociotechnical context</p>
 
-<p>History of fairness in computer science</p>
-<ul>
-  <li>Trouble with Bias</li>
-</ul>
+      
+        <div style="margin-top: 100px;">
+          <div id="disqus_thread"></div>
+          <script>
+          var disqus_developer = 1; // this would set it to developer mode
 
-<h1 id="where-to-learn">Where to learn</h1>
-<p>FAccT
-Design Justice</p>
 
-<p>ICML, AIES within AAAI, NeurIPS, ICLR, CHI</p>
-
-<p>While human centered-AI primarily focuses on how humans will experience AI systems, and how their lives will be influenced by those AI systems, it also means considering</p>
-
-<p>As with automated linting, testing, and security audits, teams choose the level of risk and rigor that makes sense for their project.  At this point, using HTTP web servers is almost always a bad idea!  But expecting every project in the world to have the same balance of unit tests and to pick the same linter rules and cycle for security audits wouldn’t make sense.</p>
-
-<ul>
-  <li>With geospatial data, use <code class="language-plaintext highlighter-rouge">fl.discover_places</code> to discover potential problem areas where generalization issues can lead to fairness problems.</li>
-  <li><code class="language-plaintext highlighter-rouge">fl.discover_slices</code> efficiently slices predictions by subgroups and shows slices that have have fairness issues.</li>
-</ul>
+          /**
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+          /*
+          var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          */
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://sociotechnical.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+      
 
 
       </section>
