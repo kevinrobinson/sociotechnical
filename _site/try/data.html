@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>let’s make this guide! | sociotechnical</title>
+<title>Python functions for reviewing your data | sociotechnical</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="let’s make this guide!" />
+<meta property="og:title" content="Python functions for reviewing your data" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/guide.html" />
-<meta property="og:url" content="http://localhost:4000/guide.html" />
+<link rel="canonical" href="http://localhost:4000/try/data.html" />
+<meta property="og:url" content="http://localhost:4000/try/data.html" />
 <meta property="og:site_name" content="sociotechnical" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://localhost:4000/guide.html","headline":"let’s make this guide!","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/try/data.html","headline":"Python functions for reviewing your data","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <style>
@@ -90,13 +90,38 @@
       </header>
       <section>
 
-      <h1 id="lets-make-this-guide">let’s make this guide!</h1>
+      <h1 id="python-functions-for-reviewing-your-data">Python functions for reviewing your data</h1>
 
-<blockquote>
-  <p>Libraries, tools and guides for data scientists and software engineers that view ML fairness as a sociotechnical problem that impacts humans</p>
-</blockquote>
+<ul>
+  <li>“tools to diagnose whether a given fairness issue might be addressed by collecting more training data from a particular subpopulation … and to predict how much more data is needed”</li>
+  <li>“support in identifying relevant subpopulations”</li>
+  <li>“tools to help actively guide data collection / curation processes”</li>
+</ul>
 
-<p>This is where important sociotechnical context goes about this domain!</p>
+<h2 id="reviewing-label-categories">Reviewing label categories</h2>
+<p>The choice of what categories labelers us significantly impacts the performance of ML systems built on that data, especially when the labeling is about human activity (see Hanna et al. 2020 for further citations).</p>
+
+<h2 id="reviewing-upstream-labeling-procedures">Reviewing upstream labeling procedures</h2>
+<p>The way examples are framed can influence labelers, which can be a source of validity concerns (eg, <a href="https://arxiv.org/pdf/2002.01111v1.pdf">Mallari et al. 2020</a>).  This is especially true if labelers are chosen primarily based on cost, and they lack domain knowledge or have been sampled from a distribution different than the people whose lives will be impacted by the ML system.</p>
+
+<p>Also look for information loss that comes from aggregation or quantization at labeling time.</p>
+
+<h2 id="sanity-checking-the-dataset">Sanity-checking the dataset</h2>
+
+<h2 id="looking-at-errors">Looking at errors</h2>
+<ol>
+  <li>Review samples of errors</li>
+  <li>Look for patterns (eg, https://f38b40a4-5763-4ae2-9f1f-1f75572afbb5.filesusr.com/ugd/1acfaf_4b2b106eaf6a40a89185eccacf822ea1.pdf)</li>
+</ol>
+
+<h2 id="revising-training-datasets">Revising training datasets</h2>
+<p>Industry practitioners more often turn to the data first, and usually have control data collection or curation (Holstein et al. 2019).</p>
+
+<ol>
+  <li>Increasing training set size</li>
+  <li>Measuring additional variables</li>
+</ol>
+
 
 
       
