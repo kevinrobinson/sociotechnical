@@ -12,10 +12,10 @@ These scenarios may help with thinking through how you might approach fairness q
 </div>
 
 <div class="Scenario">
-  <h4>Predictive policing</h4>
-  <p>You are a contractor working with the police department in a large city.  One of the project leaders in the department would like to construct a risk score for people who are known gang members engaging in knife crime.  It's important to them that they can understand what the model is doing, and are way that any model will pick up on protected characteristics.
+  <h4>Measuring brand sentiment</h4>
+  <p>You're a member of a team trying to measure brand sentiment from online comments and reviews.  The team hopes to use an existing language model, a third-party service for flagging abusive comments, and then train a more targeted sentiment classifier for your brand on top.
   </p>
-  <a href="https://arxiv.org/pdf/1802.01029.pdf">Veale et al. (2018)</a>
+  <a href="https://arxiv.org/pdf/2005.00813.pdf">Hutchinson et al. (2020)</a>
 </div>
 
 <div class="Scenario">
@@ -25,16 +25,25 @@ These scenarios may help with thinking through how you might approach fairness q
 </div>
 
 <div class="Scenario">
+  <h4>Rankings for image search</h4>
+  <p>
+    You're on a team working on improving an image search system after receiving some complaints from users related to fairness.  Users often use this system to find a selection of stock images to use when making multimedia presentations.  In this system, requests start with some information about the context and user creating the query, and your team is trying to incorporate ideas about fairness like diversity and inclusision into how search results are ranked.
+  </p>
+  <a href="https://arxiv.org/pdf/2002.03256.pdf">Mitchell et al. (2020)</a>
+</div>
+
+<div class="Scenario">
   <h4>Sales leads for car loans</h4>
   <p>You work at CarCorp, a company that collects special financing data: information on people who need car financing but have either low credit scores or limited credit histories, and sells this data to auto dealer as sales leads.  CarCorp  serves dealers across the United States.  A new project manager asks about leveraging data science to “improve the quality” of leads so that dealers to not churn.  CarCorp has a large amount of historical lead data (2 million leads in 2017 alone), but relatively less data on which leads had been approved for special financing (let alone why the loan was approved).
   </p>
   <a href="https://arxiv.org/ftp/arxiv/papers/1901/1901.02547.pdf">Passi and Barocas (2019)</a>
 </div>
+
 <div class="Scenario">
-  <h4>Child protective services hotline</h4>
-  <p>You're collaborating with the child protective services agency as part of a county government in the US.  The agency is redesigning the intake flow for reports of potential child abuse or neglect, and wants to discuss if a predictive analytics system could help them improve this system.
+  <h4>Predictive policing</h4>
+  <p>You are a contractor working with the police department in a large city.  One of the project leaders in the department would like to construct a risk score for people who are known gang members engaging in knife crime.  It's important to them that they can understand what the model is doing, and are way that any model will pick up on protected characteristics.
   </p>
-  <a href="https://www.andrew.cmu.edu/user/achoulde/files/accountability_final_balanced.pdf">Brown et al. (2019)</a> and <a href="http://proceedings.mlr.press/v81/chouldechova18a/chouldechova18a.pdf">Chouldechova et al. (2018)</a>
+  <a href="https://arxiv.org/pdf/1802.01029.pdf">Veale et al. (2018)</a>
 </div>
 
 <div class="Scenario">
@@ -42,6 +51,13 @@ These scenarios may help with thinking through how you might approach fairness q
   <p>You work within a manufacturing company, and are starting a new project that will create a schedule assigning employees to check and update certain components of the machinery to prevent critical operation failures. The component assignment is based on data that show how often different components have worn out and broken down in the past.
   </p>
   <a href="https://ischool.utexas.edu/~ml48959/materials/Publication/2018-AlgoManagePerception.pdf">Kyung Lee (2018)</a>
+</div>
+
+<div class="Scenario">
+  <h4>Child protective services hotline</h4>
+  <p>You're collaborating with the child protective services agency as part of a county government in the US.  The agency is redesigning the intake flow for reports of potential child abuse or neglect, and wants to discuss if a predictive analytics system could help them improve this system.
+  </p>
+  <a href="https://www.andrew.cmu.edu/user/achoulde/files/accountability_final_balanced.pdf">Brown et al. (2019)</a> and <a href="http://proceedings.mlr.press/v81/chouldechova18a/chouldechova18a.pdf">Chouldechova et al. (2018)</a>
 </div>
 
 <style>
