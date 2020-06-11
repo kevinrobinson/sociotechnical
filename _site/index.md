@@ -1,13 +1,3 @@
-<a href="meta" style="
-  white-space: break-spaces;
-  color: darkorange;
-  border: 2px solid orange;
-  background: #f8f8f8;
-  padding: 10px;
-  margin-bottom: 20px;
-  display: block;
-">First, please read <u><b>'Framing for reading and critiquing'</b></u></a>
-
 # Fairness is a sociotechnical problem
 Fairness in data science, machine learning, or any aspect of computer science is always challenging.  It involves balancing different stakeholders, translating between their vocabularies and perspectives, and finding ways to move forward that feels right to you and to everyone impacted by your work.
 

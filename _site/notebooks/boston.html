@@ -27,14 +27,29 @@
       color: orange !important;
       font-weight: normal !important; 
     }
+
+    #warning-banner {
+      font-size: 12px;
+      position: fixed;
+      bottom: 0;
+      padding: 10px;
+      color: orange;
+      left: 0;
+      right: 0;
+      text-align: center;
+      background: rgb(255, 255, 255, 0.8);
+    }
+
   </style>
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=bd5cb1c1e63417fc4e49791f1ef63c88b371bd33">
+    <link rel="stylesheet" href="/assets/css/style.css?v=530342fe025eff0c16b9fd0c78fd73911e96d551">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   </head>
   <body>
+    <div id="warning-banner">This is only a prototype to illustrate an idea <a href="/meta" style="padding: 10px; color: #267CB9;">read more</a></div>
+
     <div class="wrapper">
       <header>
         <div style="margin-bottom: 40px; background: #ffa50026; border: 1px solid darkorange; padding: 20px;">
@@ -52,6 +67,7 @@
           <div><a href="/notices">Fairness notices</a></div>
           <div><a href="/notebooks">Example notebooks</a></div>
           <div><a href="/scenarios">FAQ and scenarios</a></div>
+          <div><a href="/meta">What is this project?</a></div>
 
           <div style="margin-top: 20px;">
             <div>Try this right now</div>
