@@ -1,3 +1,0 @@
-# fairwarning
-
-notice more things

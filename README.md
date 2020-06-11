@@ -1,5 +1,7 @@
 # sociotechnical
 
+(this is just an experiment)
+
 `$ bundle exec jekyll serve`
 
 also
