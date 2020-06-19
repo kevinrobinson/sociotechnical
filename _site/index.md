@@ -33,11 +33,11 @@ Learning about fairness is often challenging because it involves asking question
 5. [What is this project?](/learn/meta)
 
 ## Domain-specific guides
-1. [Facial recognition](/guides/facial_recognition)
-2. [Criminal justice](/todo)
-3. [Financial services](/todo)
-4. [Education](/todo)
-5. [Health care](/todo)
+1. [Financial services](/guides/credit)
+2. [Legal](/guides/legal)
+3. [Facial recognition](/guides/facial_recognition)
+4. [Health care](/guides/health)
+5. [Education](/guides/education)
 6. [HR](/todo)
 7. [Media](/todo)
 
