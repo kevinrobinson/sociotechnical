@@ -12,6 +12,13 @@ These scenarios may help with thinking through how you might approach fairness q
 </div>
 
 <div class="Scenario">
+  <h4>Credit card fraud investigation</h4>
+  <p>You're a data scientist at a financial services company, and your manager asks you to join an existing team.  This team has deploy a model trained on historical transaction data and now new data is arriving.  For each new transaction, the model predicts whether it is potentially fraudulent and then will trigger an alert and inspection by human analysts.  The output that matters for the company is the final decision by the human analyst of whether to block the transaction, allow it but flag for further investigation by anothe team, or flag the transaction as normal.
+  </p>
+  <a href="https://arxiv.org/abs/1907.03334">Weerts et al. (2019)</a>
+</div>
+
+<div class="Scenario">
   <h4>Measuring brand sentiment</h4>
   <p>You're a member of a team trying to measure brand sentiment from online comments and reviews.  The team hopes to use an existing language model, a third-party service for flagging abusive comments, and then train a more targeted sentiment classifier for your brand on top.
   </p>
