@@ -15,11 +15,12 @@ Just like it can help ML systems to model the desired outcome end-to-end, it can
 > Failure to model the entire system over which a socialcriterion, such as fairness, will be enforced
 
 ## b. Portability trap
-...
+...https://xkcd.com/974/
+
 > Failure to understand how repurposing algorithmic solu-tions designed for one social context may be misleading,inaccurate, or otherwise do harm when applied to adifferent context
 
 ## c. Formalism trap
-...
+...https://xkcd.com/435/
 > Failure to account for the full meaning of social conceptssuch as fairness, which can be procedural, contextual,and contestable, and cannot be resolved through math-ematical formalisms
 
 ## d. Ripple Effect Trap
@@ -30,10 +31,7 @@ Working in fairness is similar; it is often very difficult to understand and pre
 > Failure to understand how the insertion of technology into an existing social system changes the behaviors and embedded values of the pre-existing system
 
 ## e. Solutionism Trap
+...https://explainxkcd.com/wiki/index.php/801:_Golden_Hammer
 If you have a hammer, everything looks like a nail.
 
 > Failure to recognize the possibility that the best solutionto a problem may not involve technology
-
-
-???
-https://xkcd.com/435/
