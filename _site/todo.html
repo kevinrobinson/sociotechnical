@@ -28,6 +28,10 @@
       font-weight: normal !important; 
     }
 
+    .wrapper > header {
+      position: relative !important; /* override theme */
+    }
+
     #warning-banner {
       font-size: 12px;
       position: fixed;
@@ -40,9 +44,15 @@
       background: rgb(255, 255, 255, 0.8);
     }
 
+    .Menu-Bucket {
+      margin-top: 20px;
+    }
+    .Menu-Link {
+      margin-left: 10px;
+    }
   </style>
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=e63c6247668a46ec17fa2b50e1e47994669c8728">
+    <link rel="stylesheet" href="/assets/css/style.css?v=37ed0c7a82b68f047cf54e45d2888c717fe7db5e">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -63,42 +73,47 @@
         
 
         <div>
-          <div><a href="/index">I can haz PYthon cod enow!!</a></div>
-          <div><a href="/notices">Fairness notices</a></div>
-          <div><a href="/notebooks">Example notebooks</a></div>
-          <div><a href="/scenarios">FAQ and scenarios</a></div>
-          <div><a href="/meta">What is this project?</a></div>
-
-          <div style="margin-top: 20px;">
+          <div class="Menu-Bucket">
             <div>Try this right now</div>
-
-            <div style="margin-left: 10px;"><a href="/try/data">Python functions for reviewing data</a></div>
-            <div style="margin-left: 10px;"><a href="/try/talking">Talking about fairness</a></div>
-            <div style="margin-left: 10px;"><a href="/todo">Noticing red flags</a></div>
-            <div style="margin-left: 10px;"><a href="/try/sociotechnical">Adding sociotechnical context</a></div>
-            <div style="margin-left: 10px;"><a href="/try/metrics">Picking your first fairness metric</a></div>
-            <div style="margin-left: 10px;"><a href="/todo">Finding interdisciplinary feedback</a></div>
-            <div style="margin-left: 10px;"><a href="/try/pushing">Pushing back against tech solutionism</a></div>
-            <div style="margin-left: 10px;"><a href="/todo">Walking away professionally</a></div>
+            <div class="Menu-Link"><a href="/try/data">Python functions for reviewing data</a></div>
+            <div class="Menu-Link"><a href="/try/talking">Talking about fairness</a></div>
+            <div class="Menu-Link"><a href="/try/traps">Noticing abstraction traps</a></div>
+            <div class="Menu-Link"><a href="/try/sociotechnical">Adding sociotechnical context</a></div>
+            <div class="Menu-Link"><a href="/try/metrics">Picking your first fairness metric</a></div>
+            <div class="Menu-Link"><a href="/todo">Finding interdisciplinary feedback</a></div>
+            <div class="Menu-Link"><a href="/try/pushing">Pushing back against tech solutionism</a></div>
+            <div class="Menu-Link"><a href="/todo">Walking away professionally</a></div>
           </div>
 
-          <div style="margin-top: 20px;">
+          <div class="Menu-Bucket">
+            <div>Learning more</div>
+            <div class="Menu-Link"><a href="/learn/notebooks">Example notebooks</a></div>
+            <div class="Menu-Link"><a href="/learn/scenarios">Scenarios for discussion</a></div>
+            <div class="Menu-Link"><a href="/learn/growing">Growing a culture for fairness</a></div>
+            <div class="Menu-Link"><a href="/notices">Fairness notices</a></div>
+            <div class="Menu-Link"><a href="/learn/meta">What is this project?</a></div>
+          </div>
+
+          <div class="Menu-Bucket">
             <div>Domain-specific guides</div>
-            <div style="margin-left: 10px;"><a href="/guides/facial_recognition">Facial recognition</a></div>
-            <div style="margin-left: 10px;"><a href="/todo">Criminal justice</a></div>
-            <div style="margin-left: 10px;"><a href="/todo">Financial services</a></div>
-            <div style="margin-left: 10px;"><a href="/todo">Education</a></div>
-            <div style="margin-left: 10px;"><a href="/guides/health">Health</a></div>
-            <div style="margin-left: 10px;"><a href="/todo">HR</a></div>
-            <div style="margin-left: 10px;"><a href="/todo">Media</a></div>
+            <div class="Menu-Link"><a href="/guides/facial_recognition">Facial recognition</a></div>
+            <div class="Menu-Link"><a href="/todo">Criminal justice</a></div>
+            <div class="Menu-Link"><a href="/todo">Financial services</a></div>
+            <div class="Menu-Link"><a href="/todo">Education</a></div>
+            <div class="Menu-Link"><a href="/guides/health">Health</a></div>
+            <div class="Menu-Link"><a href="/todo">HR</a></div>
+            <div class="Menu-Link"><a href="/todo">Media</a></div>
           </div>
 
-          <div style="margin-top: 20px;">
-            <div><a href="/todo">Make a new friend!</a></div>
+
+          <div class="Menu-Bucket">
+            <div>Help and support</div>
+            <div class="Menu-Link"><a href="/todo">Make a new friend!</a></div>
+            <div class="Menu-Link"><a href="https://github.com/fairlearn/fairlearn">GitHub</a></div>
           </div>
 
           <div>
-            <p><small><a href="https://github.com/fairlearn/fairlearn">github repo</a></small></p>
+            <p><small></small></p>
           </div>
         </div>
 

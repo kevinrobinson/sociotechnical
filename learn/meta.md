@@ -15,4 +15,3 @@ This audience has a shorter time horizon.  That's where some of the emphasis on 
 Also, some of the tone choices here are an attempt to signal that this site is for data scientists and engineers, not for academics and not for corporate compliance.  The challenge is doing that in a way that feels right to the secondary audience who cares deeply about fairness as a sociotechnical challenge, and may react quite strongly to any hint of techno-solutionism or amateurism or lack of professional responsibility that seems like it's being endorsed.  I think of Hanna talking about being concerned that there even is a software project, and how critically important language and word choice is.
 
 Here's an attempt to empathize with and speak to both audiences.
-</i></p>
