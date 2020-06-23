@@ -18,9 +18,11 @@ You can try each of these out in an hour and bring something to kick off a conve
 3. [Noticing abstraction traps](/try/traps)
 4. [Introducing more sociotechnical context](/try/sociotechnical)
 5. [Picking your first fairness metric](/try/metrics)
-6. [Pushing back against solutionism](/try/pushing)
-7. [Finding interdisciplinary feedback](/todo)
-8. [Walking away professionally](/todo)
+6. [Design docs for fairness](/try/design_docs)
+7. [Pushing back against solutionism](/try/pushing)
+8. [Finding interdisciplinary feedback](/todo)
+9. [Documenting design choices](/try/documenting)
+10. [Walking away professionally](/todo)
 
 
 ## Learning more
