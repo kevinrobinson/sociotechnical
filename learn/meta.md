@@ -18,19 +18,33 @@ Also, some of the tone choices here are an attempt to signal that this site is f
 Here's an attempt to empathize with and speak to both audiences.
 
 ## Theory of change
-The theory of change here is similar to take ideas at the heart of communities like FAccT, and do the translational work to reach a broader audience of developers.  This translationa work is key, because:
+### Assumptions
+#### a. The work is translational
+The theory of change here is similar to take ideas at the heart of communities like FAccT, and do the translational work to reach a broader audience of developers.  This translational work is key, because:
 
 > All too often, the data scientists we have encountered are quite sympathetic to the sentiment behind the critiques they hear, but feel maligned and misunderstood, unacknowledged for their efforts, and frustrated by vague recommendations that are not actionable... The gaps between data scientists and critics are wide, but critique divorced from practice only increases them. Data scientists, as the ones closest to the work, are often the best positioned to address ethical concerns, but they often need help from those who are willing to take time to understand what they are doing and the challenges of their practice.
 - [Barocas and Boyd (2017)](https://cacm.acm.org/magazines/2017/11/222176-engaging-the-ethics-of-data-science-in-practice/fulltext)
 
+#### b. The work has to embrace practitioners' contexts
 Another way to think of this project is: taking ML fairness research, and work on justice equity and power more broadly, and making it accessible to developers and data scientists.  This is similar to a literature review, or a policy report, but in a medium for developers.  A primary part of this work is accepting responsibility for what practioners need:
 
 > But the reality is that data scientists still lack the methodological tools necessary to critically engage with the epistemological and normative aspects of their work.
 - [Barbaras et al. (2020)](https://dl.acm.org/doi/pdf/10.1145/3351095.3372859)
 
+#### c. The work has to withstand pressures against it
 And also that data scientists are often engaged and included in projects precisely because of the ideology and practices that are common in the field:
 
-> [data science] is characterized by extremely asymmetrical power relations, wherethose with power and privilege are the only ones who can actuallycollect the data but they have overwhelming incentives to ignorethe problem, precisely because addressing it poses a threat to their dominance
+> [data science] is characterized by extremely asymmetrical power relations, where those with power and privilege are the only ones who can actuallycollect the data but they have overwhelming incentives to ignorethe problem, precisely because addressing it poses a threat to their dominance
 - [D’Ignazio and Klein (2019)](https://mitpress.mit.edu/books/data-feminism)
 
 This means that any educational work must acknowledge the tension in these goals: aspirations to "do better," disciplinary ideologies and practices in tension with "doing better," and structural pressures against "doing better."
+
+### Implications
+#### 1. Start small
+If we imagine a data scientist or developer spending an hour on the website, can they walk away with a conversation starter with their team?  Can we do that across domains, across types of ML systems, across a range of experiences?
+
+#### 2. Speak to developers
+Word choice and language is a critical part of signalling group identity.  While researchers may contribute, this is not a project for researchers it's a project for developers.  And further, it's a project for developers who are growing their capacity to engage with fairness work.  We should be aspiring to recruit users who can contribute to shaping this directly.
+
+#### 3. Show results under pressure
+We have to help developers to create a sense of progress and forward momentum regarding fairness.  And we have to assume there are organizational and individual pressures that will push against this work.  Folks with experience can share what to anticipate, and how to prepare.
