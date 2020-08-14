@@ -1,13 +1,13 @@
 # Talking about fairness
 
-## Microrubric for fairness
-Within this project, here's a microrubric we use when discussing fairness issues for a particular context:
+## Productive fairness conversations
+Here's guidelines for productive team conversations about fairness:
 
-1. **Deployment context**: Describes a real deployment context, not just a dataset.
-2. **For developers**: Speaks the language of developers and data scientists.  Considers real practitioner needs.  Fits within the lifecycle of real practioner work.  See [Holstein et al (2019)](https://arxiv.org/pdf/1812.05239.pdf>), [Madaio et al. (2020)](http://www.jennwv.com/papers/checklists.pdf>).
-3. **Sociotechnical**: Models the team's value that fairness as a sociotechnical challenge.   Avoids abstraction traps.  See [Selbst et al. (2020)](https://andrewselbst.files.wordpress.com/2019/10/selbst-et-al-fairness-and-abstraction-in-sociotechnical-systems.pdf>).
-4. **Open**:  Discusses tradeoffs and compares alternatives.
-5. **Real harms**: Focuses on real harms to real people.  See [Blodget et al. (2020)](https://arxiv.org/abs/2005.14050)
+1. **Deployment context**: Ground conversation in a real deployment context, not just a dataset.
+2. **Real harms**: Focus on real harms to real people.  See [Blodget et al. (2020)](https://arxiv.org/abs/2005.14050)
+3. **Sociotechnical**: Avoid abstraction traps.  See [Selbst et al. (2020)](https://andrewselbst.files.wordpress.com/2019/10/selbst-et-al-fairness-and-abstraction-in-sociotechnical-systems.pdf>).
+4. **Substantiated**:  Discuss tradeoffs and compares alternatives.
+5. **Translate to developers**: Speak the language of developers and data scientists.  Fits within the lifecycle of real practioner work.  See [Holstein et al (2019)](https://arxiv.org/pdf/1812.05239.pdf>), [Madaio et al. (2020)](http://www.jennwv.com/papers/checklists.pdf>).
 
 For more detailed fairness checklists that cover the entire lifecycle of ML and data science work, see [Madaio et al. 2020](http://www.jennwv.com/papers/checklists.pdf) and [ABOUT ML](https://www.partnershiponai.org/about-ml/).
 
@@ -19,4 +19,9 @@ Figuring out how to talk about fairness, especially if it's not your core functi
 2. Responsibility, social impact & PR
 3. Legal & policy
 4. Competitive, both proactive & reactive
+
+
+## Visuals for talking about fairness
+- max-min
+- parity
 

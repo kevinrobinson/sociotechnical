@@ -4,6 +4,7 @@ In some ways, choosing fairness metrics come with both all the existing challeng
 It can be helpful to think of these just like other software engineering tests - no unit test guarantees you are building great software, just like no type system guarntees you are shipping the right product.  Fairness metrics are only a small part of the work, but they can help teams in the same way that small tools like linters can.
 
 
+
 ## 1. Ensure test data has sufficient representation
 
 ## 2. Check that test data makes sense for deployment context
@@ -19,12 +20,14 @@ Like with all production deployments, adding observability is critical for gaini
 
 > "...we had a couple of deployments which regressed in serious ways which our error rate did not reflect..." ([Cramer et al. 2019])(https://algorithmicbiasinpractice.files.wordpress.com/2019/02/fat_2019tutorial_algorithmicbiasinpractice.pdf)
 
-## 4. Invite input from diverse stakeholders on what matters for fairness
+## 4. Invite input from diverse stakeholders on what fairness means
 This is often one of the most efficient and practical steps a team can take, but may involve bringing in external collaborators or partners.
 
 Some starting points for questions are:
 - What happens if the system's predictions are wrong?
 - What subset of people would be harmed the most by wrong predictions?
+
+See Brown et al. (2020) for a narrative approach to these conversations, Young et al. (2019) for ways to get feedback on design documents, and Martin et al. (2020) for ways to involve stakeholders in more complex assumptions about feedback loops.
 
 ## 5. Choosing specific fairness metrics
 Two helpful metrics to get started with are false positive rate or false negative rate.  Beyond those, you can also look at them for particular subgroups (eg, across all elements of subgroups).
